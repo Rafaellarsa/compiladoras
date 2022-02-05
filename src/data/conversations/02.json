@@ -1,0 +1,29 @@
+{
+	"user": {
+		"name": "Compiladoras",
+		"photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFGTlREdZM2IQ/company-logo_200_200/0/1602863157359?e=1651708800&v=beta&t=mq1ZtLu5YxXByaY5oU2koyZTuqdBDMirbWc1jjhiaug"
+	},
+	"contact": {
+		"id": "02",
+		"name": "Luiza Helena",
+		"photo": "https://media-exp1.licdn.com/dms/image/C5603AQESwHzot-mXwg/profile-displayphoto-shrink_800_800/0/1613609638924?e=1649289600&v=beta&t=tGmqHvNr5ll4sS4mTtwvXbBrApiRBbDlDM83_6pzKWM"
+	},
+	"messages": [
+		{
+			"author": "02",
+			"message": "Bom dia. Você quer trabalhar aqui na Luiza Labs?"
+		},
+		{
+			"author": "00",
+			"message": "Bom dia! Sim, por favor!"
+		},
+		{
+			"author": "02",
+			"message": "Okay, então. Você começa na segunda."
+		},
+		{
+			"author": "00",
+			"message": "Muito obrigada!"
+		}
+	]
+}

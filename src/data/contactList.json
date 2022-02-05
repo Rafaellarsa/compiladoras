@@ -2,15 +2,21 @@
 	"contacts": [
 		{
 			"id": "01",
-			"name": "Mike Jones",
-			"photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFGTlREdZM2IQ/company-logo_200_200/0/1602863157359?e=1651708800&v=beta&t=mq1ZtLu5YxXByaY5oU2koyZTuqdBDMirbWc1jjhiaug",
-			"lastMessage": "Perfect, see ya then."
+			"name": "Lucas Carvalho",
+			"photo": "https://media-exp1.licdn.com/dms/image/C4E03AQEew-lFaTEYkA/profile-displayphoto-shrink_800_800/0/1542145624025?e=1649289600&v=beta&t=Mxbwdhf9yaTrFhC0aNDK6mgSqkg8SJuuXuzOYGQ4I6Q",
+			"lastMessage": "Hahaha combinado."
 		},
 		{
 			"id": "02",
+			"name": "Luiza Helena",
+			"photo": "https://media-exp1.licdn.com/dms/image/C5603AQESwHzot-mXwg/profile-displayphoto-shrink_800_800/0/1613609638924?e=1649289600&v=beta&t=tGmqHvNr5ll4sS4mTtwvXbBrApiRBbDlDM83_6pzKWM",
+			"lastMessage": "Muito obrigada!"
+		},
+		{
+			"id": "03",
 			"name": "Zuckinho",
 			"photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHbXU-_xPveWw/company-logo_200_200/0/1627908357757?e=1651708800&v=beta&t=2lr6GRwipvtuX88J4A3RWVOmRG2HS2-Qir3Oljw7rp0",
-			"lastMessage": "Perfect, see ya then."
+			"lastMessage": "Okay."
 		}
 	]
 }

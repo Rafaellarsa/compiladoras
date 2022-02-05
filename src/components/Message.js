@@ -6,11 +6,7 @@ const Container = styled.div`
 	display: flex;
 	padding: 1rem;
 	align-items: center;
-	/* cursor: pointer; */
-
-	:hover {
-		background-color: #edf5f9;
-	}
+	justify-content: ${(props) => (props.isUser ? 'right' : 'left')};
 `;
 
 const Photo = styled.img`
@@ -20,11 +16,16 @@ const Photo = styled.img`
 	margin: 0 1rem;
 `;
 
-const Message = ({ message }) => {
+const Message = ({ messageInfo }) => {
 	return (
-		<Container>
-			<Photo src={message.photo} alt={message.name} />
-			<div>{message.text}</div>
+		<Container isUser={messageInfo.isUser}>
+			{!messageInfo.isUser && (
+				<Photo src={messageInfo.photo} alt={messageInfo.name} />
+			)}
+			<div>{messageInfo.text}</div>
+			{messageInfo.isUser && (
+				<Photo src={messageInfo.photo} alt={messageInfo.name} />
+			)}
 		</Container>
 	);
 };

@@ -8,8 +8,14 @@ const Container = styled.div`
 	align-items: center;
 	cursor: pointer;
 
-	:hover {
-		background-color: #edf5f9;
+	@media only screen and (min-width: 768px) {
+		background-color: ${(props) =>
+			props.isSelected ? '#29b6f6' : 'transparent'};
+
+		:hover {
+			background-color: ${(props) =>
+				props.isSelected ? '#29b6f6' : '#edf5f9'};
+		}
 	}
 `;
 
@@ -20,9 +26,12 @@ const Photo = styled.img`
 	margin-right: 1rem;
 `;
 
-const ContactCard = ({ contact }) => {
+const ContactCard = ({ isSelected, contact, selectContact }) => {
 	return (
-		<Container>
+		<Container
+			isSelected={isSelected}
+			onClick={() => selectContact(contact.id)}
+		>
 			<Photo src={contact.photo} alt={contact.name} />
 			<div>
 				<b>{contact.name}</b> <br />

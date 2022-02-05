@@ -1,0 +1,21 @@
+{
+	"user": {
+		"name": "Compiladoras",
+		"photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFGTlREdZM2IQ/company-logo_200_200/0/1602863157359?e=1651708800&v=beta&t=mq1ZtLu5YxXByaY5oU2koyZTuqdBDMirbWc1jjhiaug"
+	},
+	"contact": {
+		"id": "03",
+		"name": "Zuckinho",
+		"photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHbXU-_xPveWw/company-logo_200_200/0/1627908357757?e=1651708800&v=beta&t=2lr6GRwipvtuX88J4A3RWVOmRG2HS2-Qir3Oljw7rp0"
+	},
+	"messages": [
+		{
+			"author": "00",
+			"message": "You better lawyer up, 'cause I'm not coming back for 30%, I'm coming back for everything."
+		},
+		{
+			"author": "03",
+			"message": "Okay."
+		}
+	]
+}
